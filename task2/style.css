@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(134, 132, 132);
+    /* position: fixed;
+    width: 100%;
+    overflow-y: scroll; */
+}
+.container{
+    max-width: 1300px;
+    margin: 100px auto;
+}
+.keyboard{
+    padding-top: 5px;
+    width: 800px;
+    height: 280px;
+    background-color: rgb(110, 110, 110);
+    margin: 0 auto;
+}
+.vvid1{
+    width: 800px;
+    height: 200px;
+    background-color: white;
+    margin: 0 auto;
+}
+.but2,.but1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.number,.letters,.but,.symbol{
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backspace,#tab,#enter,#caps-lock,#shift{
+    width: 100px;
+}
+#shift{
+    width: 125px;
+}
+#space{
+    width: 100%;
+}
+
+pre{
+    white-space: pre-wrap;       
+    white-space: -moz-pre-wrap;  
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap;    
+    word-wrap: break-word;       
+}
+
+.but-color{
+    background-color: gray;
+}
+
+
+.color{
+    background-color: gray;
+}

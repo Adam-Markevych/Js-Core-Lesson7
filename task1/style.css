@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h2{
+    color: rgb(250, 0, 0);
+}
+.colors,.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    display: none;
+}
+
+.style{
+    width: 33.3%;
+    height: 33.3%;
+}
+
+.color1{
+    background-color: rgb(17, 212, 212);
+}
+.color2{
+    background-color: rgb(43, 14, 90);
+}
+.color3{
+    background-color: rgb(224, 159, 18);
+}
+.color4{
+    background-color: rgb(50, 47, 61);
+}
+.color5{
+    background-color: rgb(185, 247, 70);
+}
+.color6{
+    background-color: rgb(29, 235, 11);
+}
+.color7{
+    background-color: rgb(167, 202, 126);
+}
+.color8{
+    background-color: rgb(235, 12, 12);
+}
+.color9{
+    background-color: rgb(159, 13, 226);
+}
+
+
+.img1{
+    background: url(images/q.jpg) no-repeat;
+    background-size: cover;
+}
+.img2{
+    background: url(images/w.jpg) no-repeat;
+    background-size: cover;
+}
+.img3{
+    background: url(images/e.jpg) no-repeat;
+    background-size: cover;
+}
+.img4{
+    background: url(images/r.jpg) no-repeat;
+    background-size: cover;
+}
+.img5{
+    background: url(images/t.jpg) no-repeat;
+    background-size: cover;
+}
+.img6{
+    background: url(images/images4.jpg) no-repeat;
+    background-size: cover;
+}
+.img7{
+    background: url(images/images5.jpg) no-repeat;
+    background-size: cover;
+}
+.img8{
+    background: url(images/images7.jpg) no-repeat;
+    background-size: cover;
+}
+.img9{
+    background: url(images/images8.jpg) no-repeat;
+    background-size: cover;
+}
+
+
